@@ -15,6 +15,7 @@ import MetroMap from './pages/MetroMap';
 import PortalSelection from './pages/PortalSelection';
 import LandingGateway from './pages/LandingGateway';
 import FeedbackPage from './pages/Feedback';
+import Heatmap from './pages/Heatmap';
 
 const socket = io('http://127.0.0.1:5000'); // Assuming backend is on port 5000
 
@@ -39,6 +40,7 @@ const Navigation = () => {
         <Link to="/tickets" className={`text-sm font-medium transition-colors ${loc.pathname === '/tickets' ? 'text-white' : 'text-gray-400 hover:text-white'}`}>Tickets</Link>
         <Link to="/map" className={`text-sm font-medium transition-colors ${loc.pathname === '/map' ? 'text-brand-cyan' : 'text-gray-400 hover:text-white'}`}>Live Map</Link>
         <Link to="/predict" className={`text-sm font-medium transition-colors ${loc.pathname === '/predict' ? 'text-emerald-400' : 'text-gray-400 hover:text-white'}`}>Predict Crowd</Link>
+        <Link to="/heatmap" className={`text-sm font-medium transition-colors ${loc.pathname === '/heatmap' ? 'text-orange-400' : 'text-gray-400 hover:text-white'}`}>HeatMap</Link>
         <Link to="/feedback" className={`text-sm font-medium transition-colors ${loc.pathname === '/feedback' ? 'text-orange-400' : 'text-gray-400 hover:text-white'}`}>Feedback</Link>
         
         {user?.role === 'admin' && (
@@ -103,6 +105,7 @@ export default function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/predict" element={<PredictCrowd />} />
                 <Route path="/map" element={<MetroMap />} />
+                <Route path="/heatmap" element={<Heatmap />} />
                 <Route path="/feedback" element={<FeedbackPage />} />
               </Routes>
             </main>
