@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 20% 7%;
+    --foreground: 190 60% 90%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 190 60% 90%;
+
+    --popover: 220 18% 12%;
+    --popover-foreground: 190 60% 90%;
+
+    --primary: 185 80% 50%;
+    --primary-foreground: 220 20% 7%;
+
+    --secondary: 220 15% 16%;
+    --secondary-foreground: 190 40% 80%;
+
+    --muted: 220 15% 14%;
+    --muted-foreground: 210 15% 50%;
+
+    --accent: 340 75% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 185 80% 50%;
+
+    --radius: 0.75rem;
+
+    --crowd-low: 145 65% 45%;
+    --crowd-medium: 45 90% 55%;
+    --crowd-high: 20 85% 55%;
+    --crowd-critical: 0 80% 55%;
+
+    --metro-line1: 210 85% 55%;
+    --metro-line2: 145 70% 45%;
+    --metro-line3: 280 65% 55%;
+    --metro-line7: 35 90% 55%;
+
+    --glow-primary: 0 0 20px hsl(185 80% 50% / 0.3);
+    --glow-accent: 0 0 20px hsl(340 75% 55% / 0.3);
+
+    --sidebar-background: 220 18% 10%;
+    --sidebar-foreground: 190 60% 90%;
+    --sidebar-primary: 185 80% 50%;
+    --sidebar-primary-foreground: 220 20% 7%;
+    --sidebar-accent: 220 15% 16%;
+    --sidebar-accent-foreground: 190 60% 90%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 185 80% 50%;
+  }
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px hsl(185 80% 50% / 0.2); }
+  50% { box-shadow: 0 0 20px hsl(185 80% 50% / 0.5); }
+}
+
+@keyframes crowd-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

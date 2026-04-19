@@ -1,0 +1,40 @@
+# Large data files
+*.csv
+ml/data/
+**/ml/data/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Git LFS
+*.lfs
+
+# Cache
+.cache/
+.parcel-cache/

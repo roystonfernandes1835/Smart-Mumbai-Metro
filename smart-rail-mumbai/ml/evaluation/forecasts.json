@@ -1,0 +1,252 @@
+{
+  "Andheri_08:00": [
+    {
+      "time": "08:00",
+      "hour": 8,
+      "crowd_level": "HIGH",
+      "confidence": 99.8,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.1,
+        "HIGH": 99.8
+      },
+      "estimated_ridership": 4571
+    },
+    {
+      "time": "09:00",
+      "hour": 9,
+      "crowd_level": "HIGH",
+      "confidence": 99.8,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.1,
+        "HIGH": 99.8
+      },
+      "estimated_ridership": 4156
+    },
+    {
+      "time": "10:00",
+      "hour": 10,
+      "crowd_level": "HIGH",
+      "confidence": 99.7,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.2,
+        "HIGH": 99.7
+      },
+      "estimated_ridership": 2493
+    },
+    {
+      "time": "11:00",
+      "hour": 11,
+      "crowd_level": "HIGH",
+      "confidence": 99.4,
+      "probabilities": {
+        "LOW": 0.2,
+        "MEDIUM": 0.5,
+        "HIGH": 99.4
+      },
+      "estimated_ridership": 1662
+    }
+  ],
+  "BKC_17:30": [
+    {
+      "time": "17:30",
+      "hour": 17,
+      "crowd_level": "HIGH",
+      "confidence": 98.0,
+      "probabilities": {
+        "LOW": 1.6,
+        "MEDIUM": 0.4,
+        "HIGH": 98.0
+      },
+      "estimated_ridership": 443
+    },
+    {
+      "time": "18:30",
+      "hour": 18,
+      "crowd_level": "HIGH",
+      "confidence": 98.0,
+      "probabilities": {
+        "LOW": 1.1,
+        "MEDIUM": 0.9,
+        "HIGH": 98.0
+      },
+      "estimated_ridership": 554
+    },
+    {
+      "time": "19:30",
+      "hour": 19,
+      "crowd_level": "HIGH",
+      "confidence": 98.2,
+      "probabilities": {
+        "LOW": 1.4,
+        "MEDIUM": 0.4,
+        "HIGH": 98.2
+      },
+      "estimated_ridership": 498
+    },
+    {
+      "time": "20:30",
+      "hour": 20,
+      "crowd_level": "HIGH",
+      "confidence": 97.8,
+      "probabilities": {
+        "LOW": 1.5,
+        "MEDIUM": 0.7,
+        "HIGH": 97.8
+      },
+      "estimated_ridership": 387
+    }
+  ],
+  "Dadar_09:00": [
+    {
+      "time": "09:00",
+      "hour": 9,
+      "crowd_level": "HIGH",
+      "confidence": 99.7,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.2,
+        "HIGH": 99.7
+      },
+      "estimated_ridership": 761
+    },
+    {
+      "time": "10:00",
+      "hour": 10,
+      "crowd_level": "HIGH",
+      "confidence": 99.7,
+      "probabilities": {
+        "LOW": 0.2,
+        "MEDIUM": 0.1,
+        "HIGH": 99.7
+      },
+      "estimated_ridership": 456
+    },
+    {
+      "time": "11:00",
+      "hour": 11,
+      "crowd_level": "HIGH",
+      "confidence": 99.6,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.3,
+        "HIGH": 99.6
+      },
+      "estimated_ridership": 304
+    },
+    {
+      "time": "12:00",
+      "hour": 12,
+      "crowd_level": "HIGH",
+      "confidence": 99.5,
+      "probabilities": {
+        "LOW": 0.1,
+        "MEDIUM": 0.4,
+        "HIGH": 99.5
+      },
+      "estimated_ridership": 304
+    }
+  ],
+  "Churchgate_18:00": [
+    {
+      "time": "18:00",
+      "hour": 18,
+      "crowd_level": "HIGH",
+      "confidence": 98.0,
+      "probabilities": {
+        "LOW": 1.6,
+        "MEDIUM": 0.4,
+        "HIGH": 98.0
+      },
+      "estimated_ridership": 516
+    },
+    {
+      "time": "19:00",
+      "hour": 19,
+      "crowd_level": "HIGH",
+      "confidence": 97.9,
+      "probabilities": {
+        "LOW": 1.7,
+        "MEDIUM": 0.4,
+        "HIGH": 97.9
+      },
+      "estimated_ridership": 464
+    },
+    {
+      "time": "20:00",
+      "hour": 20,
+      "crowd_level": "HIGH",
+      "confidence": 97.7,
+      "probabilities": {
+        "LOW": 1.3,
+        "MEDIUM": 1.0,
+        "HIGH": 97.7
+      },
+      "estimated_ridership": 361
+    },
+    {
+      "time": "21:00",
+      "hour": 21,
+      "crowd_level": "HIGH",
+      "confidence": 97.1,
+      "probabilities": {
+        "LOW": 2.1,
+        "MEDIUM": 0.8,
+        "HIGH": 97.1
+      },
+      "estimated_ridership": 258
+    }
+  ],
+  "Chembur_10:00": [
+    {
+      "time": "10:00",
+      "hour": 10,
+      "crowd_level": "LOW",
+      "confidence": 89.4,
+      "probabilities": {
+        "LOW": 89.4,
+        "MEDIUM": 9.5,
+        "HIGH": 1.1
+      },
+      "estimated_ridership": 31
+    },
+    {
+      "time": "11:00",
+      "hour": 11,
+      "crowd_level": "LOW",
+      "confidence": 87.2,
+      "probabilities": {
+        "LOW": 87.2,
+        "MEDIUM": 11.7,
+        "HIGH": 1.2
+      },
+      "estimated_ridership": 21
+    },
+    {
+      "time": "12:00",
+      "hour": 12,
+      "crowd_level": "LOW",
+      "confidence": 87.0,
+      "probabilities": {
+        "LOW": 87.0,
+        "MEDIUM": 11.6,
+        "HIGH": 1.3
+      },
+      "estimated_ridership": 21
+    },
+    {
+      "time": "13:00",
+      "hour": 13,
+      "crowd_level": "LOW",
+      "confidence": 87.0,
+      "probabilities": {
+        "LOW": 87.0,
+        "MEDIUM": 11.6,
+        "HIGH": 1.3
+      },
+      "estimated_ridership": 26
+    }
+  ]
+}

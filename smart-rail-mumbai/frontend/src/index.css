@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,400&family=Space+Grotesk:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-gray-100 min-h-screen antialiased;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-brand-surface/60 border border-white/5 backdrop-blur-xl rounded-2xl p-6 shadow-2xl;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-br from-brand-primary to-purple-700 text-white font-medium rounded-xl px-6 py-3 transition-all hover:-translate-y-0.5 shadow-[0_4px_22px_rgba(124,58,237,0.32)] hover:shadow-[0_8px_28px_rgba(124,58,237,0.42)] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+}
+
+/* Background Animations */
+.bg-wrap {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+}
+
+.b1 {
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle, #6D28D9 0%, transparent 70%);
+  top: -180px;
+  left: -140px;
+  opacity: 0.14;
+  animation: bf 14s ease-in-out infinite;
+}
+
+.b2 {
+  width: 440px;
+  height: 440px;
+  background: radial-gradient(circle, #0891B2 0%, transparent 70%);
+  bottom: -100px;
+  right: -100px;
+  opacity: 0.12;
+  animation: bf 18s ease-in-out infinite reverse;
+}
+
+@keyframes bf {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  40% {
+    transform: translate(28px, -22px) scale(1.06);
+  }
+
+  70% {
+    transform: translate(-18px, 18px) scale(0.94);
+  }
+}
+
+.su {
+  animation: slideUp 0.38s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
